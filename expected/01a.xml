@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oaidc:dc xmlns="http://purl.org/dc/elements/1.1/"
+          xmlns:oaidc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd"
+>
+   <title>"AphasiaBank TBIBank Togher Corpus"</title>
+   <identifier>clarin.eu:cr1:p_1393514855466</identifier>
+   <creator>CLAN cmdi</creator>
+
+   <description>conversations with English people with TBI</description>
+   <description>TalkBank is a system for sharing and studying conversational interactions.</description>
+   <description>conversations with English people with TBI</description>
+   <description>conversations with English people with TBI</description>
+
+   <publisher>TalkBank</publisher>
+   <publisher>TalkBank</publisher>
+
+   <contributor>Togher, Leanne</contributor>
+   <contributor>Togher, Leanne</contributor>
+
+   <date>2014-04-17</date>
+
+   <type>Discourse</type>
+
+   <format>CHAT</format>
+
+   <language>ISO639-3:eng</language>
+   <language>ISO639-3:eng</language>
+   <language>ISO639-3:eng</language>
+   <language>ISO639-3:eng</language>
+</oaidc:dc>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMD CMDVersion="1.1" xmlns="http://www.clarin.eu/cmd/"
+                xmlns:MPI="http://www.mpi.nl/"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1393514855466/xsd">
+  <Header>
+    <MdCreator>CLAN cmdi</MdCreator>
+    <MdCreationDate>2014-04-17</MdCreationDate>
+    <MdSelfLink>hdl:11312/t-00015780-1</MdSelfLink>
+    <MdProfile>clarin.eu:cr1:p_1393514855466</MdProfile>
+    <MdCollectionDisplayName>TalkBank</MdCollectionDisplayName>
+  </Header>
+  <Resources>
+    <ResourceProxyList>
+      <ResourceProxy id="Transcript_file">
+        <ResourceType mimetype="text/x-chat">Resource</ResourceType>
+        <ResourceRef>hdl:11312/t-00015780-2</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="Media_file">
+        <ResourceType mimetype="audio/x-mpeg">Resource</ResourceType>
+        <ResourceRef>hdl:11312/t-00015780-3</ResourceRef>
+      </ResourceProxy>
+    </ResourceProxyList>
+    <JournalFileProxyList/>
+    <ResourceRelationList/>
+  </Resources>
+  <Components>
+    <talkbank-session>
+    <Session>
+      <Name>01a</Name>
+      <Title>"AphasiaBank TBIBank Togher Corpus"</Title>
+      <Date>Unspecified</Date>
+      <descriptions>
+        <Description LanguageId="">conversations with English people with TBI</Description>
+      </descriptions>
+      <MDGroup>
+        <Location>
+          <Continent>Australia</Continent>
+          <Country>Australia</Country>
+          <Region/>
+          <Address/>
+        </Location>
+        <Project>
+          <Name>TalkBank</Name>
+          <Title>TalkBank is an interdisciplinary research project</Title>
+          <Id>ISBN 1-59642-258-0</Id>
+          <Contact>
+            <Name>Prof. Brian MacWhinney</Name>
+            <Address>Psychology Dept., 5000 Forbes av., Pittsburgh, PA 15213</Address>
+            <Email>macw@cmu.edu</Email>
+            <Organisation>CMU</Organisation>
+          </Contact>
+          <descriptions>
+            <Description LanguageId="">TalkBank is a system for sharing and studying conversational interactions.</Description>
+          </descriptions>
+        </Project>
+        <Keys/>
+        <Content>
+          <Genre>Discourse</Genre>
+          <SubGenre/>
+          <Task>Unspecified</Task>
+          <Modalities>speech</Modalities>
+          <Subject>Unspecified</Subject>
+          <CommunicationContext>
+            <Interactivity>interactive</Interactivity>
+            <PlanningType>spontaneous</PlanningType>
+            <Involvement>non-elicited</Involvement>
+            <SocialContext>Family</SocialContext>
+            <EventStructure>Conversation</EventStructure>
+          </CommunicationContext>
+          <Content_Languages>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+            <Content_Language>
+              <Id>ISO639-3:eng</Id>
+              <Name>English</Name>
+              <Dominant>Unspecified</Dominant>
+              <SourceLanguage>Unspecified</SourceLanguage>
+              <TargetLanguage>Unspecified</TargetLanguage>
+              <descriptions>
+                <Description LanguageId=""/>
+              </descriptions>
+            </Content_Language>
+            </Content_Languages>
+            <Keys>
+            </Keys>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+          </Content>
+          <Actors>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+            <Actor>
+              <Role/>
+              <Name>01a_Elise_WDTO</Name>
+              <FullName/>
+              <Code>PAR</Code>
+              <FamilySocialRole>Participant</FamilySocialRole>
+              <EthnicGroup>Unspecified</EthnicGroup>
+              <Age>Unspecified</Age>
+              <BirthDate>Unspecified</BirthDate>
+              <Sex>Male</Sex>
+              <Education>Unspecified</Education>
+              <Anonymized>true</Anonymized>
+              <Contact>
+                <Name/>
+                <Address/>
+                <Email/>
+                <Organisation/>
+              </Contact>
+              <Keys/>
+              <descriptions>
+                <Description LanguageId=""/>
+              </descriptions>
+              <Actor_Languages>
+                <descriptions>
+                  <Description LanguageId=""/>
+                </descriptions>
+                <Actor_Language>
+                  <Id>ISO639-3:eng</Id>
+                  <Name>English</Name>
+                  <MotherTongue>Unspecified</MotherTongue>
+                  <PrimaryLanguage>Unspecified</PrimaryLanguage>
+                  <descriptions>
+                    <Description LanguageId=""/>
+                  </descriptions>
+                </Actor_Language>
+              </Actor_Languages>
+            </Actor>
+            <Actor>
+              <Role/>
+              <Name>Standard Actor</Name>
+              <FullName/>
+              <Code>INV</Code>
+              <FamilySocialRole>Investigator</FamilySocialRole>
+              <EthnicGroup>Unspecified</EthnicGroup>
+              <Age>Unspecified</Age>
+              <BirthDate>Unspecified</BirthDate>
+              <Sex>Unknown</Sex>
+              <Education>Unspecified</Education>
+              <Anonymized>true</Anonymized>
+              <Contact>
+                <Name/>
+                <Address/>
+                <Email/>
+                <Organisation/>
+              </Contact>
+              <Keys/>
+              <descriptions>
+                <Description LanguageId=""/>
+              </descriptions>
+              <Actor_Languages>
+                <descriptions>
+                  <Description LanguageId=""/>
+                </descriptions>
+                <Actor_Language>
+                  <Id>ISO639-3:eng</Id>
+                  <Name>English</Name>
+                  <MotherTongue>Unspecified</MotherTongue>
+                  <PrimaryLanguage>Unspecified</PrimaryLanguage>
+                  <descriptions>
+                    <Description LanguageId=""/>
+                  </descriptions>
+                </Actor_Language>
+              </Actor_Languages>
+            </Actor>
+            <Actor>
+              <Role/>
+              <Name>Standard Actor</Name>
+              <FullName/>
+              <Code>SIG</Code>
+              <FamilySocialRole>Partner</FamilySocialRole>
+              <EthnicGroup>Unspecified</EthnicGroup>
+              <Age>Unspecified</Age>
+              <BirthDate>Unspecified</BirthDate>
+              <Sex>Unknown</Sex>
+              <Education>Unspecified</Education>
+              <Anonymized>true</Anonymized>
+              <Contact>
+                <Name/>
+                <Address/>
+                <Email/>
+                <Organisation/>
+              </Contact>
+              <Keys/>
+              <descriptions>
+                <Description LanguageId=""/>
+              </descriptions>
+              <Actor_Languages>
+                <descriptions>
+                  <Description LanguageId=""/>
+                </descriptions>
+                <Actor_Language>
+                  <Id>ISO639-3:eng</Id>
+                  <Name>English</Name>
+                  <MotherTongue>Unspecified</MotherTongue>
+                  <PrimaryLanguage>Unspecified</PrimaryLanguage>
+                  <descriptions>
+                    <Description LanguageId=""/>
+                  </descriptions>
+                </Actor_Language>
+              </Actor_Languages>
+            </Actor>
+          </Actors>
+      </MDGroup>
+      <Resources>
+        <MediaFile ref="Media_file">
+          <ResourceLink>http://talkbank.org/media/TBIBank/Togher/01a.wav</ResourceLink>
+          <Type>audio</Type>
+          <Format>audio/x-wav</Format>
+          <Size>15810KB</Size>
+          <Quality>5</Quality>
+          <RecordingConditions>Unspecified</RecordingConditions>
+          <TimePosition>
+            <Start>Unspecified</Start>
+            <End>Unspecified</End>
+          </TimePosition>
+          <Access>
+            <Availability>open access</Availability>
+            <Date>Unspecified</Date>
+            <Owner>Togher, Leanne</Owner>
+            <Publisher>TalkBank</Publisher>
+            <Contact>
+              <Name>Prof. Brian MacWhinney</Name>
+              <Address>Psychology Dept., 5000 Forbes av., Pittsburgh, PA 15213</Address>
+              <Email>macw@cmu.edu</Email>
+              <Organisation>CMU</Organisation>
+            </Contact>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+          </Access>
+          <descriptions>
+            <Description LanguageId="">conversations with English people with TBI</Description>
+          </descriptions>
+          <Keys/>
+        </MediaFile>
+        <WrittenResource ref="Transcript_file">
+          <ResourceLink>http://talkbank.org/data-orig/TBIBank/Togher/01a.cha</ResourceLink>
+          <MediaResourceLink/>
+          <Date>Unspecified</Date>
+          <Type>Annotation</Type>
+          <SubType/>
+          <Format>text/x-chat</Format>
+          <Size>16KB</Size>
+          <Derivation>Annotation</Derivation>
+          <CharacterEncoding>UTF-8</CharacterEncoding>
+          <ContentEncoding/>
+          <LanguageId/>
+          <Anonymized>true</Anonymized>
+          <Validation>
+            <Type>Formal/Content</Type>
+            <Methodology>Automatic</Methodology>
+            <Level>100</Level>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+          </Validation>
+          <Access>
+            <Availability>open access</Availability>
+            <Date>Unspecified</Date>
+            <Owner>Togher, Leanne</Owner>
+            <Publisher>TalkBank</Publisher>
+            <Contact>
+              <Name>Prof. Brian MacWhinney</Name>
+              <Address>Psychology Dept., 5000 Forbes av., Pittsburgh, PA 15213</Address>
+              <Email>macw@cmu.edu</Email>
+              <Organisation>CMU</Organisation>
+            </Contact>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+          </Access>
+          <descriptions>
+            <Description LanguageId="">conversations with English people with TBI</Description>
+          </descriptions>
+          <Keys>
+          </Keys>
+        </WrittenResource>
+        <Anonyms>
+          <ResourceLink/>
+          <Access>
+            <Availability/>
+            <Date>Unspecified</Date>
+            <Owner/>
+            <Publisher/>
+            <Contact>
+              <Name/>
+              <Address/>
+              <Email/>
+              <Organisation/>
+            </Contact>
+            <descriptions>
+              <Description LanguageId=""/>
+            </descriptions>
+          </Access>
+        </Anonyms>
+      </Resources>
+      <References>
+        <descriptions>
+          <Description LanguageId=""/>
+        </descriptions>
+      </References>
+    </Session>
+    </talkbank-session>
+  </Components>
+</CMD>

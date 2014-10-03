@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMD CMDVersion="1.1" xmlns="http://www.clarin.eu/cmd/"
+                xmlns:MPI="http://www.mpi.nl/"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1393514855467/xsd">
+  <Header>
+    <MdCreator>CLAN cmdi</MdCreator>
+    <MdCreationDate>2014-04-17</MdCreationDate>
+    <MdSelfLink>http://talkbank.cmdi</MdSelfLink>
+    <MdProfile>clarin.eu:cr1:p_1393514855467</MdProfile>
+    <MdCollectionDisplayName>TalkBank</MdCollectionDisplayName>
+  </Header>
+  <Resources>
+    <ResourceProxyList>
+      <ResourceProxy id="p1">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/BilingBank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p2">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/CABank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p3">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/ClassBank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p4">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/Clinical.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p5">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/DementiaBank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p6">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/Exploration.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p7">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/Gesture.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p8">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/Meeting.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p9">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/SamtaleBank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p10">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/SLABank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p11">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/TBIBank.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p12">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>talkbank/Tutoring.cmdi</ResourceRef>
+      </ResourceProxy>
+    </ResourceProxyList>
+    <JournalFileProxyList/>
+    <ResourceRelationList/>
+  </Resources>
+  <Components>
+    <talkbank-corpus>
+      <Corpus>
+        <Name>talkbank</Name>
+        <Title>Corpus "talkbank"</Title>
+        <descriptions>
+            <Description LanguageId="">Participants' Annotations</Description>
+        </descriptions>
+        <CorpusLink ref="p1">
+          <CorpusLinkContent Name="BilingBank">talkbank/BilingBank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p2">
+          <CorpusLinkContent Name="CABank">talkbank/CABank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p3">
+          <CorpusLinkContent Name="ClassBank">talkbank/ClassBank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p4">
+          <CorpusLinkContent Name="Clinical">talkbank/Clinical.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p5">
+          <CorpusLinkContent Name="DementiaBank">talkbank/DementiaBank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p6">
+          <CorpusLinkContent Name="Exploration">talkbank/Exploration.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p7">
+          <CorpusLinkContent Name="Gesture">talkbank/Gesture.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p8">
+          <CorpusLinkContent Name="Meeting">talkbank/Meeting.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p9">
+          <CorpusLinkContent Name="SamtaleBank">talkbank/SamtaleBank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p10">
+          <CorpusLinkContent Name="SLABank">talkbank/SLABank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p11">
+          <CorpusLinkContent Name="TBIBank">talkbank/TBIBank.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p12">
+          <CorpusLinkContent Name="Tutoring">talkbank/Tutoring.cmdi</CorpusLinkContent>
+        </CorpusLink>
+      </Corpus>
+    </talkbank-corpus>
+  </Components>
+</CMD>

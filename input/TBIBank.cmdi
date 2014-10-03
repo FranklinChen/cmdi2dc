@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMD CMDVersion="1.1" xmlns="http://www.clarin.eu/cmd/"
+                xmlns:MPI="http://www.mpi.nl/"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.clarin.eu/cmd/ http://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/profiles/clarin.eu:cr1:p_1393514855467/xsd">
+  <Header>
+    <MdCreator>CLAN cmdi</MdCreator>
+    <MdCreationDate>2014-04-17</MdCreationDate>
+    <MdSelfLink>http://talkbank.cmdi</MdSelfLink>
+    <MdProfile>clarin.eu:cr1:p_1393514855467</MdProfile>
+    <MdCollectionDisplayName>TalkBank</MdCollectionDisplayName>
+  </Header>
+  <Resources>
+    <ResourceProxyList>
+      <ResourceProxy id="p1">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>TBIBank/Armstrong.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p2">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>TBIBank/Marshfield.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p3">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>TBIBank/Togher.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p4">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>TBIBank/Togher-legacy.cmdi</ResourceRef>
+      </ResourceProxy>
+      <ResourceProxy id="p5">
+        <ResourceType>Metadata</ResourceType>
+        <ResourceRef>TBIBank/Turkstra.cmdi</ResourceRef>
+      </ResourceProxy>
+    </ResourceProxyList>
+    <JournalFileProxyList/>
+    <ResourceRelationList/>
+  </Resources>
+  <Components>
+    <talkbank-corpus>
+      <Corpus>
+        <Name>TBIBank</Name>
+        <Title>Corpus "TBIBank"</Title>
+        <descriptions>
+            <Description LanguageId="">Participants' Annotations</Description>
+        </descriptions>
+        <CorpusLink ref="p1">
+          <CorpusLinkContent Name="Armstrong">TBIBank/Armstrong.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p2">
+          <CorpusLinkContent Name="Marshfield">TBIBank/Marshfield.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p3">
+          <CorpusLinkContent Name="Togher">TBIBank/Togher.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p4">
+          <CorpusLinkContent Name="Togher-legacy">TBIBank/Togher-legacy.cmdi</CorpusLinkContent>
+        </CorpusLink>
+        <CorpusLink ref="p5">
+          <CorpusLinkContent Name="Turkstra">TBIBank/Turkstra.cmdi</CorpusLinkContent>
+        </CorpusLink>
+      </Corpus>
+    </talkbank-corpus>
+  </Components>
+</CMD>
