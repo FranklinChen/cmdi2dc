@@ -1,5 +1,7 @@
 # cmdi2dc
 
+(Note: this whole thing was a temporary hack and no longer used for anything!)
+
 Some XSLT to convert from a CMDI XML file to a DC XML file.
 
 ## Running
